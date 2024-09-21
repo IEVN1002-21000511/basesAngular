@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ProductListComponent {
 
+  //*ngIf= true o false
+  
   productos:any[]=[
     {
       "productoId":1,
@@ -16,7 +18,7 @@ export class ProductListComponent {
       "Year":2023,
       "Marca":"NISSAN",
       "Color":"Azul",
-      "ImagenURL":""
+      "ImagenUrl":"https://th.bing.com/th/id/OIP.yxqg01EsTpLP1IoF59T4NgHaE6?rs=1&pid=ImgDetMain.jpg"
     },
     {
       "productoId":2,
@@ -25,8 +27,8 @@ export class ProductListComponent {
       "Precio": 30000,
       "Year":2022,
       "Marca":"AUDI",
-      "Color":"Azul",
-      "ImagenURL":""
+      "Color":"Blanco",
+      "ImagenUrl":"https://th.bing.com/th/id/OIP.IkM1K_U6YcMGIjb7iXKobQHaEo?rs=1&pid=ImgDetMain.jpg"
     },
     {
       "productoId":3,
@@ -35,9 +37,9 @@ export class ProductListComponent {
       "Precio": 150000,
       "Year":2020,
       "Marca":"KIA",
-      "Color":"Azul",
-      "ImagenURL":""
-    },
+      "Color":"Rojo",
+      "ImagenUrl":"https://th.bing.com/th/id/OIP.L9REaQeu5ZIq5vKMpnMg-wHaFj?rs=1&pid=ImgDetMain.jpg"
+    }
   ]
 
 }
